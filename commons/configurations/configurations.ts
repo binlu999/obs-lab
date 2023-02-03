@@ -1,8 +1,8 @@
-export type ConfigurationType={
+type ConfigurationType={
     notificationScheduleExp:string
 }
 
-export type Configurations={
+type Configurations={
     [key:string]:ConfigurationType
 }
 
