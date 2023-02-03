@@ -1,4 +1,10 @@
-import { Configurations } from "./configutation-type";
+export type ConfigurationType={
+    notificationScheduleExp:string
+}
+
+export type Configurations={
+    [key:string]:ConfigurationType
+}
 
 export const AppConfigurations: Configurations = {
     "mob": {
